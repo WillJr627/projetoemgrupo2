@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Pavanam&display=swap');
+
+/* Reset de configuração */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: #eae44d;
+    padding: 20px 50px;
+}
+
+/* NAVBAR  */
+
+.navlink {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.navlink:hover {
+    color: #FFF689;
+    transition: 0.3s;
+}
+
+/* BOTÕES */
+
+.botaonav {
+    background-color: #3ae0e3;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+
+.botaonav a {
+    color: white;
+    text-decoration: none;
+}
+
+.botaonav a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.botaonav:hover {
+    background-color: #FFF689;
+    transition: 0.3s;
+}
+
+/* MAiN */
+.text-1{
+    background-color:#5fe33a;
+    height: 100px;
+}
+
+main{
+        margin-top: -5%;
+        background-image: url(../IMG/logo.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100vh;
+}
+
+
+.input {
+    background-color: #D9D9D9 !important;  
+}
+
+
+
+/* FOOTER  */
+
+footer {
+    background-color: #3abce3;
+}
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+#sec-1 h5 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+#sec-2 a {
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#sec-2 a:hover {
+    color: #FFF689;
+    transition: 0.3s;
+}
+
+#sec-3 a {
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+#sec-3 a:hover {
+    color: #2c93ac;
+    transition: 0.3s;
+}

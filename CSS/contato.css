@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Pavanam&display=swap');
+
+/* Reset de configuração */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+header {
+    background-color: #f0cc19;
+    padding: 20px 40px;
+}
+
+/* NAVBAR  */
+
+.navlink {
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.navlink:hover {
+    color: #FFF689;
+    transition: 0.3s;
+}
+
+/* BOTÕES */
+
+.botaonav {
+    background-color: #E33A3A;
+    padding: 4px 16px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    margin: 0px 10px;
+}
+
+.botaonav a {
+    color: white;
+    text-decoration: none;
+}
+
+.botaonav a:hover {
+    color: black;
+    transition: 0.3s;
+}
+
+.botaonav:hover {
+    background-color: #FFF689;
+    transition: 0.3s;
+}
+
+/*MAIN*/
+
+.text-1 {
+    background-color: #3ae3e3;
+    height: 150px;
+    
+}
+
+
+.img {
+    background-image: url(../IMG/Background-home3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 28vh;
+}
+
+.row .figure{
+    width: auto;
+    max-width: 280px;
+}
+
+
+.figure a{
+    text-decoration: none;
+   color:#6C757D;
+   transition: 0.5s;
+}
+.figure b{
+   transition: 0.5s;
+}
+
+
+
+.figure a:hover{ 
+    color:#673ae3;
+}
+
+.figure b:hover{ 
+    color:#E33A3A;
+}
+
+
+/* FOOTER  */
+
+footer {
+    background-color: #3ae353;
+}
+
+#footer {
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 30px;
+}
+
+#sec-1 h5 {
+    font-size: 20px;
+    font-weight: 700
+}
+
+#sec-2 a {
+    font-weight: 700;
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#sec-2 a:hover {
+    color: #FFF689;
+    transition: 0.3s;
+}
+
+#sec-3 a {
+    margin: 10px;
+    color: white;
+    font-size: 40px;
+}
+
+#sec-3 a:hover {
+    color: #3e0707;
+    transition: 0.3s;
+}
